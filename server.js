@@ -11,6 +11,9 @@ app.get('/', (req, res) => {
 app.get('/add', (req, res) => {
    res.send('Added a add get request')
 })
+app.get('/remove', (req, res) => {
+   res.send('Added a add get request')
+})
 
 app.listen(PORT, () => {
    console.log('started on ' + PORT)
